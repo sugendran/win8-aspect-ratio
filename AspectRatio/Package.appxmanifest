@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="52813SugendranDevelops.AspectRatios" Publisher="CN=A9AEED3B-B0A3-4055-BB50-2C8626791D9A" Version="1.0.0.1" />
+  <Properties>
+    <DisplayName>Aspect Ratios</DisplayName>
+    <PublisherDisplayName>Sugendran Develops</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="AspectRatio.App">
+      <VisualElements DisplayName="Aspect Ratios" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="AspectRatio" ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" ShortName="Aspect" />
+        <SplashScreen Image="Assets\SplashScreen.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
